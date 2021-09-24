@@ -13,7 +13,7 @@ public class string {
 			B = keyboard.nextLine();
 		}
 		length = A.length() + B.length();
-		System.out.println("Jumlah Kata A dan B adalah :" +length);
+		System.out.println("Kata A dan B adalah :" +length);
 
 		i = A.compareTo(B);
 		if(i>0) {

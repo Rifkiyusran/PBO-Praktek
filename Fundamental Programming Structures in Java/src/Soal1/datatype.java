@@ -8,9 +8,9 @@ public class datatype {
 		// Deklarasi Variabel
 		long ln;
 			
+		
 		@SuppressWarnings("resource")
 		Scanner keyboard = new Scanner(System.in);
-		
 		System.out.println("Masukan jumlah nilai yang akan di inputkan: ");
 		int k = keyboard.nextInt();
 		
