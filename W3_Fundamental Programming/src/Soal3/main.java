@@ -1,5 +1,6 @@
 package Soal3;
 
+import java.util.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -31,7 +32,7 @@ public class main {
                         break;
                 }
             } else {
-                System.out.println("Angka tidak valid (1 ≤ A, B ≤ 1.000)");
+                System.out.println("Angka tidak valid");
             }
         } catch (IOException e) {
             System.out.println(e.getMessage());
